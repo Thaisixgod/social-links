@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Sora:wght@300;400;500&display=swap');
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html{
+height: 100vh;
+}
+
+body{
+  background-image: url(./img/Cartão\ Digital\ para\ link\ na\ bio\ do\ Instagram\ Social\ Media\ Rosa\ Neon\ .png);
+  height: 100%;
+  font-family: "Sora", sans-serif;
+  
+}
+
+.container{
+  max-width: 540px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #BFA87D;
+  height: 100%;
+  background-color: #000;
+  align-items: center;
+  text-align: center;
+}
+
+.profile{
+
+  height:250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name{
+font-family:'Cinzel', serif;
+text-transform: uppercase;
+color: #ffff;
+font-size:27px;
+font-weight: 400;
+line-height:1;
+}
+.picture{
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #BFA87D;
+}
+
+.list{
+  width:270px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+  list-style: none;
+  gap: 15px;
+}
+
+.list-item{
+  height:50px;
+  border:1px solid #BFA87D;
+  border-radius: 25px;
+  display: flex;
+
+}
+
+.link{
+
+  text-decoration: none;
+  color: #BFA87D;
+  padding:0 15px;
+  font-size: 13px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+
+.fa-hand-pointer{
+color: #BFA87D;
+}
+
+footer{
+
+  margin-top: 30px;
+}
